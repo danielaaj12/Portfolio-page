@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+body {
+    
+    font-weight: 200;
+    letter-spacing: 1px;
+    background: #F3C12E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+button, input[type="submit"] {
+    outline: none;
+}
+
+.logo {
+    position: fixed;
+    width: 1.5%;
+    z-index: 10;
+    top: -1%;
+    left: 23%;
+    padding: 28px;
+    background: $white;
+    border-radius: 2px;
+    display: none;
+}

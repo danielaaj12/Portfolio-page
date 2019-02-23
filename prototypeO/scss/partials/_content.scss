@@ -1,0 +1,132 @@
+#content {
+ 
+  text-align: center;
+ 
+  p{
+      padding: 10%;
+  } 
+}
+
+.aboutme_section_title, .skills_section_title, .projects_section_title, .contact_section_title{
+  background-image: url(../img/texture1.png);
+  background-color: $white;
+  padding: 140px 0 200px;
+  position: relative;
+  
+}
+
+.about_title, .about_title2, .skills_title, .skills_title2, .projects_title, .projects_title2, .contact_title, .contact_title2{
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  float: left;
+  padding: 25px;
+  letter-spacing: 5px;
+  line-height: 72%;
+  text-transform: uppercase;
+  padding: 6%;
+  padding-top: 24px;
+}
+
+.about_title2, .skills_title2, .projects_title2, .contact_title2{
+  margin-left: -26.6%;
+  padding-top: 6%;
+}
+
+.skills_title2{
+  margin-left: -19%;
+}
+
+.projects_title2{
+  margin-left: -21%;
+}
+
+.contact_title2{
+  margin-left: -23%;
+}
+.aboutme_content{
+  padding: 50px 0 80px;
+  position: relative;
+}
+
+.skills_content{
+  background-color:$red;
+  padding: 0px 0 0px;
+  position: relative;
+}
+.projects_content{
+  background-color: #F3C12E;
+  padding: 140px 0 200px;
+  position: relative;
+}
+.contact_content{
+  background-color:black;
+  padding: 140px 0 200px;
+  position: relative;
+}
+
+.aboutme_text_section{
+  color: $white;
+  padding: 3%;
+  font-family: 'Montserrat', sans-serif;
+  padding: -1 0 30px 0;
+}
+
+.about_text_title{
+  font-family: "Muli", sans-serif;
+  margin: 3rem;
+  font-size: 1.6rem;
+  padding: -1 0 30px 0;
+}
+strong{
+  color: black;
+}
+
+.skills__description-item{
+  flex: 1 auto;
+  text-align: center;
+  padding: 4rem;
+  width: 30%;
+  margin-left: -24%;
+
+}
+
+.skills_img img{
+  width: 30px;
+  margin: 0 0 3rem;
+}
+
+.skills__description{
+  padding: 2rem 4rem;
+	margin: 9 auto;
+	max-width: 1400px;
+	display: flex;
+  padding: 2.5rem 2.25rem;
+
+}
+
+.text_skills{
+  color: white;
+}
+
+h4{
+  color: white;
+}
+
+.p_about{
+  margin-left: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
