@@ -1,7 +1,13 @@
 @import 'settings/mixin';
 @import 'settings/variables';
 @import 'settings/global';
-@import 'partials/menu';
-@import 'partials/header';
-@import 'partials/content';
+@import 'partials/sections/menu';
+@import 'partials/sections/header';
+@import 'partials/sections/content';
+@import 'partials/projects/cuda';
+@import 'partials/projects/events';
+@import 'partials/projects/folio';
+@import 'partials/projects/tinyone';
+
+
 

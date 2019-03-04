@@ -1,12 +1,12 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
-    
     font-weight: 200;
     letter-spacing: 1px;
-    background: #F3C12E;
+    background: $yellow;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,18 +17,4 @@ body {
     clear: both;
 }
 
-button, input[type="submit"] {
-    outline: none;
-}
 
-.logo {
-    position: fixed;
-    width: 1.5%;
-    z-index: 10;
-    top: -1%;
-    left: 23%;
-    padding: 28px;
-    background: $white;
-    border-radius: 2px;
-    display: none;
-}

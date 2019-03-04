@@ -1,0 +1,28 @@
+#menu {
+  position: sticky;
+  top: 0;
+  background: $white_header;
+  padding: 55px 10% 25px;
+  z-index: 1;
+  
+  .options {
+      position: relative;
+      top: -41px;
+      list-style: none;
+      margin-left: 4%;
+      li {
+          float: left;
+          transition: 0.25s;
+          margin: 20px;
+          
+    }
+      a {
+          color: black;
+          text-decoration: none;
+          font-family:'Muli', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 2ch;
+          font-size: 15px;
+        }
+    }
+}
