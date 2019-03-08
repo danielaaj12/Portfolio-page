@@ -6,15 +6,10 @@
 body {
     font-weight: 200;
     letter-spacing: 1px;
-    background: $yellow;
     font-family: 'Montserrat', sans-serif;
+    background-color: $yellow;
+    background-image: url(../img/texture1.png);
 }
 
-.clearfix:after {
-    content: '';
-    display: block;
-    width: 100%;
-    clear: both;
-}
 
 

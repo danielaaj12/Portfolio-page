@@ -28,7 +28,8 @@
   }
 
   .skills_content{
-    background-color: black;
+    background-color: $yellow;
+    background-image: url(../img/texture1.png);
   }
 
   .projects_title2{
@@ -47,13 +48,69 @@
     margin-left: 2%;
   }
 
-  .skills_content{
-    background-color: black; 
-  }
-
   .design_info_img, .soft_info_img, .web_info_img{
     width: 104%;
   }
+
+  .design_info_img, .web_info_img, .soft_info_img{
+    width: 69%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+
+  .projects_content{
+    background-color: #0D1321;
+    background-image: url(../img/texture1.png);
+  }
+  
+  .email_text{
+    margin-left: 13%;
+    font-size: 23px;
+    margin-top: -18%;
+  }
+  
+  .github_contact, .linkedin_contact{
+    width: 13%;
+    margin-top: 11%;
+    cursor: pointer;
+  }
+  
+  .github_contact{
+    margin-left: 2%;
+  }
+  
+  .linkedin_contact{
+    margin-left: 28%;
+  }
+  
+  .contact_info{
+    padding: 0%;
+    margin: -36px;
+    margin-top: 37%;
+  }
+
+  .txt{
+    display: none;
+  }
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+  
+
+
 
  
 
