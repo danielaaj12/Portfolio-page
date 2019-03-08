@@ -1,0 +1,62 @@
+@media (max-width: $breakpoint-md){
+
+  .animation{
+    width: 104%;
+    margin-top: -6%;
+  }
+
+  .options{
+    display: none;
+  }
+
+  .about_title2{
+    margin-left: -84.6%;
+    padding-top: 22%;
+  }
+
+  .aboutme_text_section{
+    padding: 0%;
+  }
+
+  .aboutme_content{
+    background-color: $red;
+  }
+
+  .skills_title2{
+    margin-left: -46%;
+    margin-top: 18%;
+  }
+
+  .skills_content{
+    background-color: black;
+  }
+
+  .projects_title2{
+    margin-left: -2%;
+    margin-top: -11%;
+
+  }
+
+  .skills_description{
+
+    margin-left: 39%;
+  }
+
+  .contact_title2{
+    margin-top: -10%;
+    margin-left: 2%;
+  }
+
+  .skills_content{
+    background-color: black; 
+  }
+
+  .design_info_img, .soft_info_img, .web_info_img{
+    width: 104%;
+  }
+
+ 
+
+
+  
+}    

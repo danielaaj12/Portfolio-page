@@ -1,4 +1,3 @@
-@import 'settings/mixin';
 @import 'settings/variables';
 @import 'settings/global';
 @import 'partials/sections/menu';
@@ -8,6 +7,9 @@
 @import 'partials/projects/events';
 @import 'partials/projects/folio';
 @import 'partials/projects/tinyone';
+@import 'breakpoints/breakpoints';
+
+
 
 
 

@@ -86,7 +86,7 @@ body {
   position: relative; }
 
 .skills_content {
-  background-color: #d75964ff;
+  background-color: black;
   padding: 0px 0 0px;
   position: relative; }
 
@@ -110,7 +110,8 @@ body {
   font-family: "Muli", sans-serif;
   margin: 3rem;
   font-size: 1.6rem;
-  padding: -1 0 30px 0; }
+  padding: -1 0 30px 0;
+  color: black; }
 
 strong {
   color: black; }
@@ -126,9 +127,6 @@ strong {
   width: 30px;
   margin: 0 0 3rem; }
 
-.skills__description {
-  display: flex; }
-
 .text_skills {
   color: #fff; }
 
@@ -136,13 +134,17 @@ h4 {
   color: #fff; }
 
 .p_about {
-  margin-left: 49px; }
+  margin-left: 49px;
+  color: black; }
 
 .email_image {
   margin-left: 46%; }
 
 .projects_images {
   margin-left: -53px; }
+
+.circle_decoration {
+  display: none; }
 
 .c-img-cuda {
   background: #87509c;
@@ -329,5 +331,47 @@ h1 {
 
 h1 {
   letter-spacing: 2px; }
+
+@media (max-width: 768px) {
+  .animation {
+    width: 104%;
+    margin-top: -6%; }
+
+  .options {
+    display: none; }
+
+  .about_title2 {
+    margin-left: -84.6%;
+    padding-top: 22%; }
+
+  .aboutme_text_section {
+    padding: 0%; }
+
+  .aboutme_content {
+    background-color: #d75964ff; }
+
+  .skills_title2 {
+    margin-left: -46%;
+    margin-top: 18%; }
+
+  .skills_content {
+    background-color: black; }
+
+  .projects_title2 {
+    margin-left: -2%;
+    margin-top: -11%; }
+
+  .skills_description {
+    margin-left: 39%; }
+
+  .contact_title2 {
+    margin-top: -10%;
+    margin-left: 2%; }
+
+  .skills_content {
+    background-color: black; }
+
+  .design_info_img, .soft_info_img, .web_info_img {
+    width: 104%; } }
 
 /*# sourceMappingURL=style.css.map */
